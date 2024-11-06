@@ -1,8 +1,8 @@
 document.getElementById('form-contato').addEventListener('submit', function(e) {
   e.preventDefault();
-  const nome = document.getElementById('nome').value;
-  const email = document.getElementById('email').value;
-  const mensagem = document.getElementById('mensagem').value;
+  let nome = document.getElementById('nome').value;
+  let email = document.getElementById('email').value;
+  let mensagem = document.getElementById('mensagem').value;
 
   if (nome && email && mensagem) {
     alert('Mensagem enviada com sucesso!');
@@ -12,3 +12,8 @@ document.getElementById('form-contato').addEventListener('submit', function(e) {
     alert('Por favor, preencha todos os campos.');
   }
 });
+
+document.body.addEventListener('click', function() {
+        const audio = document.getElementById('audio');
+        audio.play(); 
+    });
