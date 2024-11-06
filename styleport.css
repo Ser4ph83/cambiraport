@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para a seção 'Sobre' */
+#sobre {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo para a foto de perfil */
+.foto-perfil {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.foto-perfil img {
+    width: 120px; /* Ajuste o tamanho da foto */
+    height: 160px; /* Altura similar ao formato 3x4 */
+    border-radius: 50%; /* Deixa a imagem circular, se preferir quadrada, remova essa linha */
+    object-fit: cover; /* Para garantir que a imagem não distorça */
+    border: 3px solid #333; /* Borda ao redor da foto */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 2rem;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

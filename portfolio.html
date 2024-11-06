@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfólio de desenvolvedor web">
+	<title>Portfolio Exemplo</title>
+	<link rel="stylesheet" href="styleport.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#habilidades">Habiliades</a></li>
+				<li><a href="#projetos">Meus Projetos</a></li>
+				<li><a href="#contato">Fale que eu te escuto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="sobre">
+		<div class="foto-perfil">
+            <img src="img1.jpg" alt="Foto de Perfil">
+        </div>
+		<h1>Quem sou eu?</h1>
+		<p>Olá, tudo bem? <strong>It's me Mario!</strong> Sou um encanador muito bacana, quebro blocos com socos mas a turma acha que é com a cabeça</p>
+	</section>
+
+	<section id="habilidades">
+		<h2>Habilidades</h2>
+		<p>Sou um encanador formado em designer grafico com mestrado em engenharia da computação</p>
+		<ul>
+    		<li>HTML</li>
+      		<li>CSS</li>
+      		<li>JavaScript</li>
+      		<li>React (em breve)</li>
+      		<li>CCNA</li>
+    	</ul>
+	</section>
+
+	<section id="projetos">
+    	<h2>Estes são meus projetos Projetos</h2>
+    	<div class="projeto">
+      		<h3>Projeto 1</h3>
+      		<p>Descrição do projeto 1...</p>
+    	</div>
+    	<div class="projeto">
+      		<h3>Projeto 2</h3>
+      		<p>Descrição do projeto 2...</p>
+    	</div>
+  	</section>
+  	<section id="contato">
+    	<h2>Contato</h2>
+    	<form id="form-contato">
+      		<label for="nome">Nome</label>
+      		<input type="text" id="nome" name="nome" required>
+
+      		<label for="email">E-mail</label>
+      		<input type="email" id="email" name="email" required>
+
+	    	<label for="mensagem">Mensagem</label>
+	    	<textarea id="mensagem" name="mensagem" required></textarea>
+
+	    	<button type="submit">Enviar</button>
+    	</form>
+  </section>
+
+  	<footer>
+  		<p>&copy; 2024 - Todos os direitos reservados. Visite nossa <a href="https://youtu.be/mQ1ycOl48Hc?t=23" target="_blank">página no Instagram</a></p>
+	</footer>
+
+
+  <script src="scriptport.js"></script>
+</body>
+</html>
